@@ -88,7 +88,7 @@ class TodosController extends Controller
     public function update($todoId)
     {
         $this->validate(request(), [
-            'name'=>'required|min:5|max:25',
+            'name'=>'required|min:5|max:10',
             'description'=>'required|min:5|max:250'
         ]);
 
@@ -127,6 +127,30 @@ class TodosController extends Controller
         return redirect('/todos')->with('success', 'Erfolgreich gelöscht');
 
         
+    }
+
+
+    public function complete($todoId)
+    {
+        $todo = Todo::find($todoId);
+
+        $todo->completed = true;
+        $todo -> save();
+
+        return redirect('/todos')->with('success', 'Todo erledigt, gut gemacht !!!');
+    }
+
+
+    public function finished()
+
+    {
+        // fetch all todos from database
+
+        //display them in the todos.index page
+        $todos = Todo::all();
+
+        return view('todos.done')->with('todos', $todos);
+
     }
 
 }

@@ -24,16 +24,14 @@
 
             
                 
-            @if (!$todo->completed)
+            @if ($todo->completed)
                 <li class="list-group-item">
                
                 {{$todo->name}}
                 
 
-                 
-
-                 <a href="/todo-app/public/todos/{{$todo->id}}/complete " class="btn btn-info btn-sm mx-1 float-right">Complete</a>
-                 <a href="/todo-app/public/todos/{{$todo->id}} " class="btn btn-info btn-sm float-right">Check</a>
+                 <div class="btn-info btn-sm mx-1 float-right" style="background-color:red;">Completetion Date: {{$todo->updated_at}}</div>
+                
                  
                 
               
@@ -51,3 +49,4 @@
 
  </div>
 @endsection
+

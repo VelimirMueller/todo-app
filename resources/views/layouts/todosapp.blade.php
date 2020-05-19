@@ -23,6 +23,7 @@
   <a class="navbar-brand" href="/todo-app/public/">Velis Todo App</a>
   <a class="navbar-brand" href="/todo-app/public/todos">Todos</a>
   <a class="navbar-brand" href="/todo-app/public/new-todos">Create Todos</a>
+  <a class="navbar-brand" href="/todo-app/public/done">Finished Todos</a>
   
 </nav>
 
