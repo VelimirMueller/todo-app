@@ -25,11 +25,12 @@
             
                 <li class="list-group-item">
 
-                    {{$todo->name}}
-                    {{$todo->completed}}
+                {{$todo->name}}
+                {{$todo->date_add}}
+                    
                     <a href="/todo-app/public/todos/{{$todo->id}} " class="btn btn-info btn-sm float-right">Check</a>
                 </li>
-                @endforeach
+            @endforeach
         </ul>
 </div>
            
