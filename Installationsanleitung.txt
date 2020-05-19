@@ -1,0 +1,45 @@
+Step 1 Composer installieren
+	-> installiert alle benötigten PHP Module um Laravel ausführen zu können
+
+https://getcomposer.org/Composer-Setup.exe
+
+Step 2 Laravel installieren
+	da nun composer installiert ist, einfach eine Konsole(Shell) öffnen und folgendes eingeben:
+	-> composer global require laravel/installer
+
+Step 3 Todo App herunterladen Github url:
+	-> https://github.com/VelimirMueller/todo-app
+
+
+
+Optional:-------------------------------------------------------------------------------------------------------
+
+diesen Ordner in htdocs oder entsprechendes Root Verzeichnis des Webservers packen.
+Das Root Verzeichnis des Projects ist im public Ordner zu finden also entweder dorthin 
+navigieren oder entsprechend im Server das Root Verzeichnis auf den public ordner setzen !!!! 
+
+
+VORSICHT dann müssten sämtliche Links in dem Projekt abgeändert werden, da dieses 
+Projekt als htdocs root Verzeichnis erstellt wurde. diese Links befinden sich jeweils in den Dateien des Ordners
+
+resources->views und dort müssten alle *.blade.php Dateien bearbeitet werden (alle Unterordner beachten)
+
+Optional:-------------------------------------------------------------------------------------------------------!
+
+
+Step 4 Datenbanken einrichten:
+
+Damit das Project eine funktionierende Datenbankanbindung hat, ist es erforderlich eine Konsole zu öffnen und in das 
+Verzeichnis des Projects(etwa htdocs/todo-app) zu navigieren. 
+Dort führe bitte folgenden Befehl aus:
+
+-> php artisan migrate
+
+	!! wichtig, der Webserver und DB Server müssen laufen !!
+
+Die Datenbank ist auf den User: root und PW: 
+konfiguriert (Standard XAMPP) im Ordner todo-app/.env könnten aber entsprechende Anpassungen vorgenommen werden, falls 
+
+
+Nun sollte die Todo App funktionieren und du kannst Todos erstellen, löschen und updaten. Das Projekt wird weitergeführt also lohnt es
+sich hin und wieder das repository auf Updates zu checken.
