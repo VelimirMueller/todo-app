@@ -10,18 +10,19 @@ Step 2 Laravel installieren
 Step 3 Todo App herunterladen Github url:
 	-> https://github.com/VelimirMueller/todo-app
 
+die gezipte Datei entpacken und Ordner von todo-app-master in todo-app umbenennen (wichtig !)
 
+Diesen Ordner in htdocs oder entsprechendes Root Verzeichnis des Webservers packen.
+
+
+Das Root Verzeichnis des Projects ist im public Ordner zu finden also localhost aufrufen und entweder dorthin 
+navigieren oder 
 
 Optional:-------------------------------------------------------------------------------------------------------
 
-diesen Ordner in htdocs oder entsprechendes Root Verzeichnis des Webservers packen.
-Das Root Verzeichnis des Projects ist im public Ordner zu finden also entweder dorthin 
-navigieren oder entsprechend im Server das Root Verzeichnis auf den public ordner setzen !!!! 
-
-
+entsprechend im Server das Root Verzeichnis auf den public ordner setzen !!!! 
 VORSICHT dann müssten sämtliche Links in dem Projekt abgeändert werden, da dieses 
 Projekt als htdocs root Verzeichnis erstellt wurde. diese Links befinden sich jeweils in den Dateien des Ordners
-
 resources->views und dort müssten alle *.blade.php Dateien bearbeitet werden (alle Unterordner beachten)
 
 Optional:-------------------------------------------------------------------------------------------------------!
