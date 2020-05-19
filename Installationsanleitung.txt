@@ -3,9 +3,13 @@ Step 1 Composer installieren
 
 https://getcomposer.org/Composer-Setup.exe
 
+
+
 Step 2 Laravel installieren
 	da nun composer installiert ist, einfach eine Konsole(Shell) öffnen und folgendes eingeben:
 	-> composer global require laravel/installer
+
+
 
 Step 3 Todo App herunterladen Github url:
 	-> https://github.com/VelimirMueller/todo-app
@@ -18,6 +22,8 @@ Diesen Ordner in htdocs oder entsprechendes Root Verzeichnis des Webservers pack
 Das Root Verzeichnis des Projects ist im public Ordner zu finden also localhost aufrufen und entweder dorthin 
 navigieren oder 
 
+
+
 Optional:-------------------------------------------------------------------------------------------------------
 
 entsprechend im Server das Root Verzeichnis auf den public ordner setzen !!!! 
@@ -29,6 +35,14 @@ Optional:-----------------------------------------------------------------------
 
 
 Step 4 Datenbanken einrichten:
+
+Eine Datenbank (zb phpmyadmin) mit dem Namen: 
+
+todos_app
+
+anlegen. Wenn man einen anderen Namen verwenden möchte bitte in der .env Datei die Anpassung vornehmen.
+
+
 
 Damit das Project eine funktionierende Datenbankanbindung hat, ist es erforderlich eine Konsole zu öffnen und in das 
 Verzeichnis des Projects(etwa htdocs/todo-app) zu navigieren. 
