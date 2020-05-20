@@ -1,2 +1,5 @@
 20.05.2019 -> Design angepasst
 	   -> NEW FEATURE:	erledigte TODOS anzeigen lassen ! nice =)
+
+20.05.20219 -> Sprache von mehreren Elementen angepasst
+	    -> Funktionalität getestet 

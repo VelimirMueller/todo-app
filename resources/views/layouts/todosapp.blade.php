@@ -22,8 +22,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light my-5">
   <a class="navbar-brand" href="/todo-app/public/">Velis Todo App</a>
   <a class="navbar-brand" href="/todo-app/public/todos">Todos</a>
-  <a class="navbar-brand" href="/todo-app/public/new-todos">Create Todos</a>
-  <a class="navbar-brand" href="/todo-app/public/done">Finished Todos</a>
+  <a class="navbar-brand" href="/todo-app/public/new-todos">Todos erstellen</a>
+  <a class="navbar-brand" href="/todo-app/public/done">Erledigte Todos</a>
   
 </nav>
 

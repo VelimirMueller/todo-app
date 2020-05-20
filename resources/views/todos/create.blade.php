@@ -5,7 +5,7 @@
     <div class="from-group">
 
         <div class="text-center my-5" style="margin-top:20vh;background-color:white;opacity:1;border-radius:5px;">
-                <h1>Create Todos</h1>
+                <h1>Todos erstellen</h1>
                 </div>
 
             <div class="row justify-content-center">
@@ -14,7 +14,7 @@
                     
                     <div class="card card-default">
 
-                        <div class="card-header">Create New Todo</div>
+                        <div class="card-header">Erstelle Todo</div>
 
                         <div class="card-body">
 
@@ -47,7 +47,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-info btn-sm float-right">Create Todo</button>
+                                    <button type="submit" class="btn btn-info btn-sm float-right">Erstellen</button>
                                 </div>
 
                             </form>

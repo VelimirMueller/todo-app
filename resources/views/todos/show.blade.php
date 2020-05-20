@@ -25,8 +25,11 @@
                     
                 
                 <hr>
-                <a href="/todo-app/public/todos/{{ $todo->id }}/edit" class="btn btn-info btn-sm" style="float:right;">Edit</a>
-                <a href="/todo-app/public/todos/{{ $todo->id }}/delete" class="btn btn-danger btn-sm" style="float:right;">Delete</a>
+
+                <a href="/todo-app/public/todos/{{ $todo->id }}/delete" class="btn btn-danger btn-sm" style="float:right;">Löschen</a>
+
+                <a href="/todo-app/public/todos/{{ $todo->id }}/edit" class="btn btn-info btn-sm" style="float:right;">Editieren</a>
+                
                 
             </div>
          

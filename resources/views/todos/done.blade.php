@@ -12,7 +12,7 @@
 
         <div class="card-header">
 
-            TODOS
+            ToDos
         </div>
 
 
@@ -30,7 +30,7 @@
                 {{$todo->name}}
                 
 
-                 <div class="btn-info btn-sm mx-1 float-right" style="background-color:red;">Completetion Date: {{$todo->updated_at}}</div>
+                 <div class="btn-info btn-sm mx-1 float-right" style="background-color:red;">Fertiggestellt am: {{$todo->updated_at}}</div>
                 
                  
                 
