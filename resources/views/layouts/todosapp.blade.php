@@ -19,11 +19,11 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light my-5">
-  <a class="navbar-brand" href="/todo-app/public/">Velis Todo App</a>
-  <a class="navbar-brand" href="/todo-app/public/todos">Todos</a>
-  <a class="navbar-brand" href="/todo-app/public/new-todos">Todos erstellen</a>
-  <a class="navbar-brand" href="/todo-app/public/done">Erledigte Todos</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light my-5" style="width:100%;font-weight:bold;border:solid #999 2px;background:none; color:rgba(23, 162, 184,0.8)">
+  <a class="navbar-brand" style ="color:#777" href="/todo-app/public/">Todo App Home</a>
+  <a class="navbar-brand" style ="color:#777" href="/todo-app/public/todos">Todos ansehen</a>
+  <a class="navbar-brand" style ="color:#777" href="/todo-app/public/new-todos">Todos erstellen</a>
+  <a class="navbar-brand" style ="color:#777" href="/todo-app/public/done">Erledigte Todos</a>
   
 </nav>
 

@@ -4,13 +4,13 @@
 
     <div class="from-group">
 
-        <div class="text-center my-5" style="margin-top:20vh;background-color:white;opacity:1;border-radius:5px;">
-                <h1>Todos erstellen</h1>
+    <div class="text-center my-5" style="margin-top:20vh;background-color:white;opacity:1;border-radius:5px">
+                    <div class="btn btn-info btn-sm" style="width:100%;font-weight:bold;border:solid #999 2px;background:rgba(0,55,125,0); color: #999">
+                        <h1>ToDos erstellen</h1>
+                    </div>
                 </div>
 
-            <div class="row justify-content-center">
-                
-                <div class="col-md-8">
+            <div class="card card-default">
                     
                     <div class="card card-default">
 
@@ -38,11 +38,11 @@
 
                             @csrf
 
-                                <div class="form-group">
+                                <div class="form-group" style="border: 1px solid #17a2b8; border-radius:7px">
                                     <input type="text" class="form-control" placeholder="Name" name="name">
                                 </div>
 
-                                <div class="form-group">
+                                <div class="form-group" style="border: 1px solid #17a2b8; border-radius:7px">
                                     <textarea cols="5" rows="5" class="form-control" placeholder="Description" name="description"></textarea>
                                 </div>
 

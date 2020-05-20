@@ -3,3 +3,11 @@
 
 20.05.20219 -> Sprache von mehreren Elementen angepasst
 	    -> Funktionalität getestet 
+
+20.05.2019  -> für bessere Lesbarkeit Datum mit format() auf dd mm YYYY konvertiert 
+	    -> Design angepasst
+			-> Einheitliches Design auf allen Seiten
+			-> Anpassungen fürs Auge
+			-> Forms und card besser formatiert
+			-> sämtliche Funktionalitäten getestet
+			-> Projekt abschließen und nochmal auf Github pushen
