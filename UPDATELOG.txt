@@ -11,3 +11,5 @@
 			-> Forms und card besser formatiert
 			-> sämtliche Funktionalitäten getestet
 			-> Projekt abschließen und nochmal auf Github pushen
+
+25.09.2017    -> einige <hr> Elemente in die Formulare zugefügt, damit sie einfach etwas schicker wirken
