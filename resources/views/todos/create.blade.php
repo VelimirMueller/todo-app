@@ -45,6 +45,7 @@
                                 <div class="form-group" style="border: 1px solid #17a2b8; border-radius:7px">
                                     <textarea cols="5" rows="5" class="form-control" placeholder="Description" name="description"></textarea>
                                 </div>
+                                <hr>
 
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-info btn-sm float-right">Erstellen</button>

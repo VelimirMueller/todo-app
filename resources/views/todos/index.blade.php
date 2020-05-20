@@ -32,7 +32,7 @@
                 {{$todo->name}}
                 </div>
 
-                 
+                 <hr>
 
                  <a href="/todo-app/public/todos/{{$todo->id}}/complete " class="btn btn-info btn-sm mx-1 float-right">Fertigstellen</a>
                  <a href="/todo-app/public/todos/{{$todo->id}} " class="btn btn-info btn-sm float-right">Check</a><br>

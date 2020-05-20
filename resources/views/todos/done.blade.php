@@ -31,7 +31,7 @@
                 <div class="btn btn-info btn-sm" style="width:100%;font-weight:bold;border:solid #17a2b8 1px;background:rgba(0,55,125,0); color: #17a2b8">
                 {{$todo->name}}
                 </div>
-
+                <hr>
                  <div class="btn-info btn-sm mx-1 float-right" style="background-color:red;">Fertiggestellt am: {{ ($todo->updated_at)->format('d-m-Y H:i:s') }}</div>
                 
                  

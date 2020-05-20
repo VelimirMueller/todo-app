@@ -44,6 +44,8 @@
                                     <textarea cols="5" rows="5" class="form-control" placeholder="Description" name="description">{{ $todo->description }}
                                     </textarea>
                                 </div>
+                                
+                                <hr>
 
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-info btn-sm float-right">Update</button>
