@@ -11,7 +11,7 @@ Usage:
 
 1. first clone repo
 
-2. create db todos_app <br>
+2. create db: todos_app <br>
     -you can also edit the .env file, this is my configuration(created in xampp with default username: root and password:<blank>):<br>
         DB_CONNECTION=mysql<br>
         DB_HOST=127.0.0.1<br>
