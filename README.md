@@ -11,14 +11,14 @@ Usage:
 
 1. first clone repo
 
-2. create db todos_app 
-    -you can also edit the .env file, this is my configuration(created in xampp with default username: root and password:<blank>):
-        DB_CONNECTION=mysql
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=todos_app
-        DB_USERNAME=root
-        DB_PASSWORD=
+2. create db todos_app <br>
+    -you can also edit the .env file, this is my configuration(created in xampp with default username: root and password:<blank>):<br>
+        DB_CONNECTION=mysql<br>
+        DB_HOST=127.0.0.1<br>
+        DB_PORT=3306<br>
+        DB_DATABASE=todos_app<br>
+        DB_USERNAME=root<br>
+        DB_PASSWORD=<br>
         
 3. open a shell / cmd / somethingsimilar, navigate inside the app folder (cd <path/to/app>) and enter following command:
     php artisan migrate
